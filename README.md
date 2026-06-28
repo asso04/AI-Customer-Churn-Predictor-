@@ -121,10 +121,11 @@ clients_data/{client_id}/churn_report.csv
 
 ---
 
-# 📊 Dataset Examples
+## 📊 Dataset Example
 
-## customers.csv (TRAINING SET)
+### Training (customers.csv)
 
+```csv
 age,gender,time_on_site,pages_viewed,previous_purchases,cart_added,purchased
 22,F,1056,19,4,0,1
 58,F,93,17,12,1,1
@@ -134,6 +135,7 @@ age,gender,time_on_site,pages_viewed,previous_purchases,cart_added,purchased
 
 ## predict_customers.csv (INFERENCE SET)
 
+```csv
 age,gender,time_on_site,pages_viewed,previous_purchases,cart_added
 30,M,400,12,2,0
 45,F,800,25,7,1
