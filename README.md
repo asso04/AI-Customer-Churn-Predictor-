@@ -130,7 +130,7 @@ age,gender,time_on_site,pages_viewed,previous_purchases,cart_added,purchased
 22,F,1056,19,4,0,1
 58,F,93,17,12,1,1
 40,M,560,24,6,1,0
-
+```
 ---
 
 ## predict_customers.csv (INFERENCE SET)
@@ -140,10 +140,10 @@ age,gender,time_on_site,pages_viewed,previous_purchases,cart_added
 30,M,400,12,2,0
 45,F,800,25,7,1
 28,M,150,10,1,0
-
+```
 ---
 
-# 🚀 How to Run
+## 🚀 How to Run
 
 ## 1. Install dependencies
 
