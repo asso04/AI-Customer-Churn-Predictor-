@@ -1,4 +1,4 @@
-# 📊 AI Customer Churn Predictor (AutoML + FastAPI)
+# 📊 AI Customer Churn Predictor
 
 End-to-end machine learning system for customer churn prediction. Supports per-client training, inference on new data, and automated report generation through a REST API.
 
