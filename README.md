@@ -158,7 +158,8 @@ uvicorn api:app --host 0.0.0.0 --port 8000 --reload
 
 ## 3. Run the client on another PC 
 
-(customers.csv and predict_customers.csv have to be on the same path)
+(customers.csv and predict_customers.csv have to be on the same path,
+make sure to put your server ip in the script's url)
 
 python client.py
 
