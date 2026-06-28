@@ -141,9 +141,12 @@ age,gender,time_on_site,pages_viewed,previous_purchases,cart_added
 
 ## 🚀 How to Run
 
-## 1. Install dependencies
+### 1. Install dependencies
 
-pip install fastapi uvicorn pandas scikit-learn xgboost joblib requests
+```bash
+pip install -r requirements.txt
+```
+
 
 ---
 
