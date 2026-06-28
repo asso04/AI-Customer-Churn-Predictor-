@@ -16,36 +16,38 @@ This project implements a lightweight SaaS-like ML platform that allows you to:
 
 ---
 
-# 🧠 Architecture
+## 🧠 Architecture
 
-Training & inference flow:
+Training flow:
 
-customers.csv (training data)
-        ↓
-FastAPI /train
-        ↓
-ML Pipeline (XGBoost + preprocessing)
-        ↓
-model.pkl (per client_id)
-        ↓
-predict_customers.csv (new customers)
-        ↓
-FastAPI /report
-        ↓
-churn_report.csv
+- customers.csv (training data)
+  ↓
+- FastAPI `/train`
+  ↓
+- ML Pipeline (XGBoost + preprocessing)
+  ↓
+- model.pkl (per client_id)
+  ↓
+- predict_customers.csv (new data)
+  ↓
+- FastAPI `/report`
+  ↓
+- churn_report.csv
 
 ---
 
-# 📦 Project Structure
+## 📦 Project Structure
 
-AI_Customer_Churn_Predictor/
-│
-├── api.py                 # FastAPI backend
-├── train.py              # ML training pipeline
-├── client.py             # simulated client SDK
-├── clients_data/         # per-client storage (datasets + reports)
-├── models/               # saved trained models
-├── clients.db            # client registry database
+- `api.py` → FastAPI backend
+- `train.py` → ML training pipeline
+- `client.py` → simulated client SDK
+
+- `customers.csv` → training dataset
+- `predict_customers.csv` → inference dataset
+
+- `clients_data/` → per-client storage (datasets + reports)
+- `models/` → saved trained models
+- `clients.db` → client registry database
 
 ---
 
