@@ -352,7 +352,7 @@ class ChurnDashboard(QMainWindow):
         self.start_worker("report", client_id=self.client_id_input.text(), target_column=self.target_col_input.text())
 
     # =====================================================================
-    # 5. DESIGN APPLICAZIONE (QSS)
+    # 5. DESIGN APPLICATION (QSS)
     # =====================================================================
     def apply_styles(self):
         dark_stylesheet = """
