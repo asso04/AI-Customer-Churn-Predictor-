@@ -163,7 +163,7 @@ make sure to put your server ip in the script's url)
 
 python client.py
 
-![Dashboard Preview](assets/Screenshot 2026-06-29 012915.png)
+![Dashboard Preview](Screenshot 2026-06-29 012915.png)
 
 ---
 
