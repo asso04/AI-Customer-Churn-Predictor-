@@ -6,3 +6,4 @@ fastapi
 uvicorn
 requests
 python-multipart
+pyside6
