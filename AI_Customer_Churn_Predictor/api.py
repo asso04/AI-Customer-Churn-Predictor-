@@ -189,3 +189,14 @@ async def report(client_id: str, target_column: str):
         "summary": summary,
         "report_path": report_path
     }
+
+# ===========================
+# CONTROL CLIENT
+# ===========================
+
+@app.get("/check-client/{client_id}")
+async def check_client(client_id: str):
+    client = get_client(client_id)
+    if client:
+        return {"exists": True, "message": "existing user, try another name"}
+    return {"exists": False}
